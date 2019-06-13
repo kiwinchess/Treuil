@@ -1,0 +1,14 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"PFW0250 V12 DT1-SA2-d12-LTR300";"";
+"TraceParts.PartVersion";"1.1.1";"";
+"SUPPLIER";"Planeta";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartNumber";"69-14102014-116446";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"Electric rope winch PFW-1D - Basic design";"";
+"TraceParts.InstanceId";"69-14102014-11644622I0AWMT61ZZW8KA1MI15KA0I";"";
+"TraceParts.PartTitle";"Electric rope winch PFW-1D - Basic design";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatusId";"";"";
+"SELECTION";"PFW0250 V12 DT1 - LTR(mm) 300";"";
+"TraceParts.ClassPath";"PLANETA:69-14102014-116446";"";
