@@ -1,0 +1,14 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"PFW0500 V15 DT2-TGL-LTR160";"";
+"TraceParts.PartVersion";"1.1.1";"";
+"SUPPLIER";"Planeta";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartNumber";"69-15102014-129090";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"Electric rope winch PFW-2D - Double diameter drum";"";
+"TraceParts.InstanceId";"69-15102014-129090AYMPCNN23UXHEBQSAU9X1AOIQ";"";
+"TraceParts.PartTitle";"Electric rope winch PFW-2D - Double diameter drum";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatusId";"";"";
+"SELECTION";"PFW0500 V15 DT2 - LTR(mm) 160";"";
+"TraceParts.ClassPath";"PLANETA:69-15102014-129090";"";
