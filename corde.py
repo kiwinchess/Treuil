@@ -2,12 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import fsolve
 
-n = 100
+n = 50
 Ltot = 50
 L=Ltot/n
 g = 9.81
 ro = 1000
-Vitesse = 3
+Vitesse = 5.9
 Msonar = 9
 
 D = 6.3 * 10**-3
@@ -28,7 +28,7 @@ C = 0.6
 
 F0 = np.sqrt((Msonar*g - Vsonar*ro*g)**2 + (0.5*ro*C*Ssonar*Vitesse**2)**2)
 alpha0 = np.arctan((Msonar*g-Vsonar*ro*g)/(0.5*ro*C*Ssonar*Vitesse**2))
-beta0 = alpha0
+beta0 = 1.5
 
 print((Msonar*g - Vsonar*ro*g)**2 )
 print((0.5*ro*C*Ssonar*Vitesse**2)**2)
@@ -40,16 +40,15 @@ bliste= [beta0]
 
 Fn = F0
 alphan = alpha0
-beta0 = 1
+betan=beta0
 
 for k in range(n):
     def f(b):
         return -L/4*ro*Cp*D*L*Vitesse**2*(np.cos(b))**2-L/2*np.cos(b)*(Vcable*ro*g-Mcable*g)-L/2*np.sin(b)*Fn*np.cos(alphan) + L/2*np.cos(b)*Fn*np.sin(alphan)
-
-    betan = fsolve(f, 2)
+    betan = fsolve(f, 1)
     Tn = 0.5 * ro * Cp * D * L * Vitesse ** 2 * np.cos(betan) ** 2
     Tt = 0.5 * ro * Cf * np.pi * D * L * Vitesse ** 2 * np.sin(betan) ** 2
-    Fn, alphan = np.sqrt((-Fn*np.cos(alphan) + Tn*np.sin(betan) - Tt*np.cos(betan))**2 + (-Fn*np.sin(alphan) - ro*Vsonar*g + Msonar*g - Tn*np.cos(betan) - Tt*np.sin(betan))**2), np.arctan((-Fn*np.sin(alphan) - ro*Vsonar*g + Msonar*g - Tn*np.cos(betan) - Tt*np.sin(betan))/(-Fn*np.cos(alphan) + Tn*np.sin(betan) - Tt*np.cos(betan)))
+    Fn, alphan = np.sqrt((+Fn*np.cos(alphan) + Tn*np.sin(betan) + Tt*np.cos(betan))**2 + (Fn*np.sin(alphan) - ro*Vsonar*g + Msonar*g - Tn*np.cos(betan) + Tt*np.sin(betan))**2), np.arctan((Fn*np.sin(alphan) - ro*Vsonar*g + Msonar*g - Tn*np.cos(betan) + Tt*np.sin(betan))/(Fn*np.cos(alphan) + Tn*np.sin(betan) + Tt*np.cos(betan)))
     Fliste.append(Fn)
     aliste.append(alphan)
     bliste.append(betan)
@@ -64,4 +63,3 @@ for k in range(n):
     plt.scatter(abs1, ord1)
 plt.axis('equal')
 plt.show()
-
