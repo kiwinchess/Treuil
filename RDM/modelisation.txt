@@ -1,0 +1,109 @@
+
++-------------------+
+| RDM 6 - Ossatures |
++-------------------+
+
+Utilisateur : ensta
+
+Nom du projet : calcul
+Date : 17 juin 2019
+
+
++---------------------+
+| Données du problème |
++---------------------+
+
+6 Noeuds
+7 Poutres(s)
+1 Matériau(x)
+1 Section(s) droite(s)
+2 Liaison(s) nodale(s)
+1 Cas de charge(s)
+1 Mode(s) propre(s) demandé(s)
+
++------------------+
+|  Noeud(s) [ mm ] |
++------------------+
+
+Noeud       x         y         z          Noeud      x         y         z
+
+  1       0.000     0.000  1280.000           2     0.000   800.000  1280.000
+  3       0.000   800.000     0.000           4     0.000  1650.000  1280.000
+  5       0.000     0.000     0.000           6     0.000   800.000  1780.000
+
+
++----------------------------+
+|  Poutres(s)  [  mm , rad ] |
++----------------------------+
+
+Poutre   Ori -> Ext    Orient    Sect  Mat    Long     Type
+
+   1       1      2     0.0000    11   11   800.000    Rigide - Rigide
+   2       3      2     0.0000    11   11  1280.000    Rigide - Rigide
+   3       2      4     0.0000    11   11   850.000    Rigide - Rigide
+   4       5      1     0.0000    11   11  1280.000    Rigide - Rigide
+   5       2      6     0.0000    11   11   500.000    Rigide - Rigide
+   6       6      4     0.0000    11   11   986.154    Rigide - Rigide
+   7       6      1     0.0000    11   11   943.398    Rigide - Rigide
+
+Poids de la structure = 452.745 N (g = 10.00 m/s2)
+
+Centre de gravité = 0.000   658.275   1124.717   mm
+
++-----------------------+
+|  Section(s) droite(s) |
++-----------------------+
+
+Le cisaillement transversal est négligé
+
+Section droite 11 :
+
+  Rond creux - d=60.3 e=5.0
+  Aire = 8.687 cm2
+  Moments quadratiques : IY = 33.477 cm4  -  IZ = 33.477 cm4
+  Constante de torsion de Saint Venant J = 66.953 cm4
+  Coefficients d'aire cisaillée : ky = 0.51  kz = 0.51
+
+
++--------------+
+|  Matériau(x) |
++--------------+
+
+Matériau 11 : Acier Inox
+
+  Module de Young = 203000 MPa
+  Coefficient de Poisson = 0.29
+  Module de cisaillement = 78682 MPa
+  Masse volumique = 7850 kg/m3
+  Coefficient de dilatation = 1.50E-05 1/K
+
+
++-----------------------+
+|  Liaison(s) nodale(s) |
++-----------------------+
+
+Noeud 5 : dx = dy = dz = rotx = roty = rotz = 0
+Noeud 3 : dx = dy = dz = rotx = roty = rotz = 0
+
+
++----------------------+
+|  Cas de charge(s)  1 |
++----------------------+
+
+poids
+
+Le poids propre est pris en compte (g = 10.00 m/s2)
+
+2 Charge(s) nodale(s) [ N , N.mm ]
+
+Noeud 4 : Fx = 0.00  Fy = 0.00  Fz = -650.00
+Noeud 4 : Fx = 1071.00  Fy = 0.00  Fz = -1690.00
+
+
++-------------------+
+| Analyse dynamique |
++-------------------+
+
+Hypothèse matrice masse consistante
+Précision sur le calcul des pulsations =  1.00E-02
+
