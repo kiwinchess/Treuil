@@ -1,0 +1,99 @@
+__cahier des charges__
+ppt
+
+___treuil___
+trouve sur planeta
+gros diametre pour pas deformer le cable
+2000N
+programme python pour trouver celle que lon voulait ==> determiner diametre + longueur; pour 5 etages, estce que lenroulee est suffisament grande pour 50m + estce que le temps est asse court
+donner les resultats de calcul de python
+
+au final: double diameter drum; type PFW-2D 500 V15
+
+NB: le cable dont depend la doc planeta est le meme diametre que le notre, donc la doc est adaptee
+
+___trancannage___
+fournit par planeta
+dimensions non_fournis, contact planeta; pas de reponse
+on a rajoute sur catia en devinant avec les photos de Planeta
+Dapres les photos, on dirait auil est relie a la rotation du tambour, donc changer le moteur ne genera pas
+
+___moteur___
+planeta peut fournir un motoreducteur (dapres la doc_planeta)
+on les a contacte pour verifier si DC 12V et pour avoir dimensions; aucune reopnse
+
+le cas echeant on essaye davoir les memes caracteristiques que le moteur planeta;
+  
+moteur DC 12V
+couple calcule selon 2* diametre tanbour et tension cable
+vitesse de rotation haute, environ celle de planeta
+
+https://store.mdp.fr/penta-4s30-pm105-580905.html
+
+documentation:
+https://store.mdp.fr/pub/media/documents/pdf/penta_4s30_pm105.pdf
+
+NB: plus petit (en dimension) que moteur planeta
+
+___collecteur tournant___
+on doit percer dans le tambour, pas possible sur catia
+collecteur avec plus de 5 connections
+
+Au final: ES6
+
+doc
+http://pdf.directindustry.fr/pdf-en/dsti-dynamic-sealing-technologies-inc/slip-ring-catalog/17077-542235.html#open
+
+doc ES:
+https://www.dsti.com/pdfs/catalogs/DSTI-ES-Series-Catalog.pdf
+
+fichier STEP sur:
+https://www.dsti.com/resources/downloads/
+
+___support___
+materiaux environnement marin, alu ou acier inox
+pas gener moteur
+treuil sur le cote
+en general, doit respecter le CDCf sur ppt
+
+au debut, une simple barre horizontale avec arceau
+RDM pas tres bon
+plus de triangles
+inspiree de structures en grue. au depart javais un 3ieme triangle vers le bas, mais il genait le moteur donc supprime
+
+cf efforts sur RDM Ossatures
+angle du cable devine a peu pres par rapport a la position du tambour et le bout du boudin; on refait letude apres la deformee du cable
+
+materiaux inox et tubulaire (dimensions de la section sur Ossatures)
+
+cf modelisation finales sur Ossatures
+
+___support+treuil___
+plaque de meme epaisseur que le support de treuil
+encastrement necessaire??
+solution techno = U bolts
+Ubolts choisis tq diametre filetage=ceux du treuil et rayon U plus grand que celui des poutres
+
+problemes: frottement metal metal, cisaillement sur les Ubolts dans le cas ou le cable tire de travers, moteuret treuil ont du jeu (peut etre dangeureux)
+
+___support+tableau arriere___
+on prend en compte les effors modelise sur Ossatures i.e. traction ou compressio, torsion
+
+au debut fourches directes (empeche torsion et compression), mais difficiles a fabriquer
+donc plutot BRIDE À FOURCHE AVEC TOURILLON, choisi tq epaisseur de la fourche=celle du tableau arriere
+NB: il y en a pas qui sont asse epais, mais on pourrait peut etre reusiner???
+fourche+ support en vis, donc bon pour traction(meme sil nest pas transmis) + compression
+fixation des fourches par serrage avec boulons?
+
+On remarque aussi aue le tableau est incline par rapport a la verticale= pas un probleme; suffit de re,odeliser sur Ossatures les angles des efforts
+
+idee du centrage long, permet denlever le support facilement, pese pas trop; tout en gardant les fourches du tableau arriere
+centrage long entre le gros support et les tubes au dessus du tableau arriere
+conge arrete pour faciliter linsertion
+
+ne pas gener le cable a larriere du tableau, ne pas gener la batterie, mais rester le plus ecarter possible (meilleure structure) et les fourches les plus longues possible
+
+problemes potentiels: le centrage est il asse long pour empecher aue la poutre en traction sorte toute seule? Sinon on pourrait rajouter des goupilles, mais attention a la torsion
+
+
+
