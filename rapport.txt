@@ -7,6 +7,7 @@ gros diametre pour pas deformer le cable
 2000N
 programme python pour trouver celle que lon voulait ==> determiner diametre + longueur; pour 5 etages, estce que lenroulee est suffisament grande pour 50m + estce que le temps est asse court
 donner les resultats de calcul de python
+plusieurs options de freinage
 
 au final: double diameter drum; type PFW-2D 500 V15
 
