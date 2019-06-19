@@ -62,8 +62,25 @@ RDM pas tres bon
 plus de triangles
 inspiree de structures en grue. au depart javais un 3ieme triangle vers le bas, mais il genait le moteur donc supprime
 
-cf efforts sur RDM Ossatures :Noeud 4 : Fx = 0.00  Fy = 0.00  Fz = -650.00
+cf efforts sur RDM Ossatures :
+__avant deformee__
+Noeud 4 : Fx = 0.00  Fy = 0.00  Fz = -650.00
 Noeud 4 : Fx = 1071.00  Fy = 0.00  Fz = -1690.00
+
+__a 5 noeuds accrochage__
+angle 0.2°
+1999N et 7N
+3.5cm de deformation
+
+__a 5 noeuds nominal__
+102N 9N plutot horizontal
+1.8cm de deformation
+
+__a 0 noeuds accrochage = vertical__
+70N vertical
+angle 90°
+2000N
+moins d'un mm
 
 angle du cable devine a peu pres par rapport a la position du tambour et le bout du boudin; on refait letude apres la deformee du cable
 
