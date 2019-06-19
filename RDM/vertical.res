@@ -3,10 +3,10 @@
 | RDM 6 - Ossatures |
 +-------------------+
 
-Nom du projet : calcul
+Nom du projet : vertical
 
 Date : 19/6/2019
-Heure : 17/17/34
+Heure : 16/43/24
 
 +------------+
 | Assemblage |
@@ -93,7 +93,7 @@ Matrice de rigidité
 | Factorisation de la matrice de rigidité |
 +-----------------------------------------+
 
-Pivot minimal =  2.93873481367695E+0004
+Pivot minimal =  7.14568979408710E+0004
 Noeud = 6    ddl = 5
 
 +------------------+
@@ -105,9 +105,9 @@ Vecteur force global - Cas  1
 Cas de charges 1
 Déplacements nodaux
 Efforts intérieurs
-Création du fichier : calcul.o1
+Création du fichier : vertical.o1
 
 Fin du calcul
 
-Temps de calcul = 610 ms
+Temps de calcul = 516 ms
 
