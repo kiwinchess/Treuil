@@ -66,6 +66,7 @@ cf efforts sur RDM Ossatures :
 __avant deformee__
 Noeud 4 : Fx = 0.00  Fy = 0.00  Fz = -650.00
 Noeud 4 : Fx = 1071.00  Fy = 0.00  Fz = -1690.00
+angle 57°
 
 __a 5 noeuds accrochage__
 angle 0.2°
@@ -73,7 +74,7 @@ angle 0.2°
 3.5cm de deformation
 
 __a 5 noeuds nominal__
-102N 9N plutot horizontal
+102N 9N quasi horizontal
 1.8cm de deformation
 
 __a 0 noeuds accrochage = vertical__
