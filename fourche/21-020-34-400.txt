@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-06082008-151746";"";
+"REFERENCE";"21-020-34-400";"";
+"TraceParts.PartTitle";"21-02 : BRIDE À FOURCHE AVEC TOURILLON - DIN 6315 C";"";
+"TraceParts.InstanceId";"10-06082008-1517465C9CQRTHNV977DGVT490QV22T";"";
+"DESIGN";"21-02 : BRIDE À FOURCHE AVEC TOURILLON - DIN 6315 C - 21-020-34-400";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"Emile Maurin";"";
+"TraceParts.PartVersion";"1.2.7";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"fr";"";
+"TraceParts.ClassPath";"EMILE_MAURIN:10-06082008-151746";"";

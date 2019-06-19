@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"32-24012013-085321";"";
+"DESIGN";"Brides, DIN 6315 B, à fourche, DIN 6315 B-40x400";"";
+"STANDARD";"DIN 6315 B";"";
+"TraceParts.PartTitle";"Brides, DIN 6315 B, à fourche";"";
+"TraceParts.InstanceId";"32-24012013-0853211YQOVDRCI21TD5NO0LPDXAGIT";"";
+"TraceParts.PartStandardAcronym";"DIN";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"TraceParts.PartVersion";"1.0.9";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"fr";"";
+"TraceParts.ClassPath";"DIN:32-24012013-085321";"";
