@@ -6,7 +6,7 @@
 Nom du projet : calcul
 
 Date : 19/6/2019
-Heure : 17/17/34
+Heure : 17/46/48
 
 +------------+
 | Assemblage |
@@ -93,7 +93,7 @@ Matrice de rigidité
 | Factorisation de la matrice de rigidité |
 +-----------------------------------------+
 
-Pivot minimal =  2.93873481367695E+0004
+Pivot minimal =  7.14568979408710E+0004
 Noeud = 6    ddl = 5
 
 +------------------+
@@ -109,5 +109,5 @@ Création du fichier : calcul.o1
 
 Fin du calcul
 
-Temps de calcul = 610 ms
+Temps de calcul = 625 ms
 
