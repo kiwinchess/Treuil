@@ -62,7 +62,9 @@ RDM pas tres bon
 plus de triangles
 inspiree de structures en grue. au depart javais un 3ieme triangle vers le bas, mais il genait le moteur donc supprime
 
-cf efforts sur RDM Ossatures
+cf efforts sur RDM Ossatures :Noeud 4 : Fx = 0.00  Fy = 0.00  Fz = -650.00
+Noeud 4 : Fx = 1071.00  Fy = 0.00  Fz = -1690.00
+
 angle du cable devine a peu pres par rapport a la position du tambour et le bout du boudin; on refait letude apres la deformee du cable
 
 materiaux inox et tubulaire (dimensions de la section sur Ossatures)
@@ -81,7 +83,7 @@ ___support+tableau arriere___
 on prend en compte les effors modelise sur Ossatures i.e. traction ou compressio, torsion
 
 au debut fourches directes (empeche torsion et compression), mais difficiles a fabriquer
-donc plutot BRIDE À FOURCHE AVEC TOURILLON, choisi tq epaisseur de la fourche=celle du tableau arriere
+donc plutot BRIDE Ã€ FOURCHE AVEC TOURILLON, choisi tq epaisseur de la fourche=celle du tableau arriere
 NB: il y en a pas qui sont asse epais, mais on pourrait peut etre reusiner???
 fourche+ support en vis, donc bon pour traction(meme sil nest pas transmis) + compression
 fixation des fourches par serrage avec boulons?
